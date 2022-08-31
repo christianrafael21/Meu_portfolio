@@ -1,0 +1,141 @@
+html, body{
+    background: linear-gradient(-45deg , rgb(57, 57, 57) , rgb(0, 0, 0)), white;
+    animation: efect-background 10s ease infinite;
+  }
+  
+  @keyframes efect-background {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Special+Elite&display=swap');
+
+.navbar{
+    position: sticky;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    animation: digitacao 5s steps(60) 1s infinite  both;
+}
+
+@keyframes digitacao{
+  }
+
+.navbar-text{
+    font-family: 'Cinzel', serif;
+    color: rgb(255, 255, 255);
+}
+.main{
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 40%;
+}
+
+.sobre-mim h5{
+   position: absolute;
+   max-width: 50%;
+   max-height: 50%;
+   margin-top: 5%;
+   margin-left: 8%;
+   color: white;
+   font-family:'Times New Roman', Times, serif;
+}
+.sobre-mim img {
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    border-radius: 50%;
+}
+.menu-two{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    
+}
+@media (max-width: 564px) {
+.menu-two{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 50%;
+        margin-bottom: 10%;    
+    }
+}
+.conhecimentos{
+    color: white;
+}
+.trabalhos{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.trabalhos h4{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color:white;
+}
+
+.cmais img{
+    border-radius: 10%;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+.css img {
+    border-radius: 10%;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.html img{
+    border-radius: 10%;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.js img{
+    border-radius: 10%;
+    max-width: 50%;
+    max-height: 50%;
+}
+.cmais img:hover{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+
+.css img:hover {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.html img:hover{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.js img:hover{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.contato{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color:white;
+}
+.footer{
+    text-align: center;
+    color:white;
+}
